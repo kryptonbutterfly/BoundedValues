@@ -4,21 +4,43 @@ public final class BoundsException extends Exception
 {
 	private static final long serialVersionUID = 1L;
 	
-	public BoundsException(Throwable throwable, String msg, Object... args)
+	/**
+	 * @param cause
+	 *            The original cause of this exception
+	 * @param msg
+	 *            The formatter string of the message of the exception
+	 * @param args
+	 *            formatter arguments to be applied to the formatter string
+	 */
+	public BoundsException(Throwable cause, String msg, Object... args)
 	{
-		super(msg.formatted(args), throwable);
+		super(msg.formatted(args), cause);
 	}
 	
-	public BoundsException(Throwable throwable)
+	/**
+	 * @param cause
+	 *            The original cause of this exception
+	 */
+	public BoundsException(Throwable cause)
 	{
-		super(throwable);
+		super(cause);
 	}
 	
+	/**
+	 * @param msg
+	 *            The formatter string of the message of the exception
+	 * @param args
+	 *            formatter arguments to be applied to the formatter string
+	 */
 	public BoundsException(String msg, Object... args)
 	{
 		this(msg.formatted(args));
 	}
 	
+	/**
+	 * @param msg
+	 *            The message of the exception
+	 */
 	public BoundsException(String msg)
 	{
 		super(msg);
