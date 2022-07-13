@@ -1,4 +1,4 @@
-module bounded
+module de.tinycodecrank.bounded
 {
 	exports de.tinycodecrank.bounded;
 	exports de.tinycodecrank.bounded.presets._bool;
@@ -9,6 +9,6 @@ module bounded
 	exports de.tinycodecrank.bounded.presets._float;
 	exports de.tinycodecrank.bounded.presets._double;
 	
-	requires transitive Monads;
-	requires transitive Functional;
+	requires transitive de.tinycodecrank.Monads;
+	requires transitive de.tinycodecrank.Functional;
 }
