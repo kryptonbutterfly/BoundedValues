@@ -3,7 +3,7 @@ package de.tinycodecrank.bounded;
 import java.util.function.LongFunction;
 import java.util.function.LongPredicate;
 
-import de.tinycodecrank.monads.Opt;
+import de.tinycodecrank.monads.opt.Opt;
 
 //@formatter:off
 /**

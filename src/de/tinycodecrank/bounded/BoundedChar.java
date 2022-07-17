@@ -2,7 +2,7 @@ package de.tinycodecrank.bounded;
 
 import de.tinycodecrank.functions.char_.CharFunction;
 import de.tinycodecrank.functions.char_.CharPredicate;
-import de.tinycodecrank.monads.Opt;
+import de.tinycodecrank.monads.opt.Opt;
 
 //@formatter:off
 /**

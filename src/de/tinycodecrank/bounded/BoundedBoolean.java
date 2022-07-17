@@ -2,7 +2,7 @@ package de.tinycodecrank.bounded;
 
 import de.tinycodecrank.functions.bool_.BoolFunction;
 import de.tinycodecrank.functions.bool_.BoolUnaryOperator;
-import de.tinycodecrank.monads.Opt;
+import de.tinycodecrank.monads.opt.Opt;
 
 //@formatter:off
 /**

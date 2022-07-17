@@ -3,8 +3,8 @@ package de.tinycodecrank.bounded;
 import java.util.function.IntFunction;
 import java.util.function.IntPredicate;
 
-import de.tinycodecrank.monads.Opt;
 import de.tinycodecrank.monads.OptInt;
+import de.tinycodecrank.monads.opt.Opt;
 
 //formatter:off
 /**

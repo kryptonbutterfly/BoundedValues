@@ -2,7 +2,7 @@ package de.tinycodecrank.bounded;
 
 import de.tinycodecrank.functions.byte_.ByteFunction;
 import de.tinycodecrank.functions.byte_.BytePredicate;
-import de.tinycodecrank.monads.Opt;
+import de.tinycodecrank.monads.opt.Opt;
 
 //@formatter:off
 /**

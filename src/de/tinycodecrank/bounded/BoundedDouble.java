@@ -3,7 +3,7 @@ package de.tinycodecrank.bounded;
 import java.util.function.DoubleFunction;
 import java.util.function.DoublePredicate;
 
-import de.tinycodecrank.monads.Opt;
+import de.tinycodecrank.monads.opt.Opt;
 
 //@formatter:off
 /**

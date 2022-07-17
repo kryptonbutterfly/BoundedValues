@@ -3,7 +3,7 @@ package de.tinycodecrank.bounded;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
-import de.tinycodecrank.monads.Opt;
+import de.tinycodecrank.monads.opt.Opt;
 
 //@formatter:off
 /**
