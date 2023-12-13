@@ -7,9 +7,9 @@
 	
 	<distributionManagement>
 		<repository>
-			<id>github_bounded_values</id>
+			<id>github</id>
 			<name>GitHub tinycodecrank Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/tinycodecrank/bounded_values</url>
+			<url>https://maven.pkg.github.com/tinycodecrank/maven-repo</url>
 		</repository>
 	</distributionManagement>
 	
@@ -22,15 +22,7 @@
 	<repositories>
 		<repository>
 			<id>github</id>
-			<url>https://maven.pkg.github.com/tinycodecrank/better_functionals</url>
-		</repository>
-		<repository>
-			<id>github_tiny_monads</id>
-			<url>https://maven.pkg.github.com/tinycodecrank/tiny_monads</url>
-		</repository>
-		<repository>
-			<id>github_better_functionals</id>
-			<url>https://maven.pkg.github.com/tinycodecrank/better_functionals</url>
+			<url>https://maven.pkg.github.com/tinycodecrank/maven-repo</url>
 		</repository>
 	</repositories>
 	
