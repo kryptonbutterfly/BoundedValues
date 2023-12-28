@@ -1,16 +1,28 @@
 # BoundedValues
-Provides a way to restrict the range of a type 
+Provides a way to restrict the range of a type
+
+## Getting the latest release
+
+```xml
+<repository>
+  <id>github</id>
+  <url>https://maven.pkg.github.com/tinycodecrank/maven-repo</url>
+</repository>
+```
+
+```xml
+<dependency>
+  <groupId>de.tinycodecrank</groupId>
+  <artifactId>bounded_values</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
 
 ## Download
 
 java version | library version | Download
 :----------: | :-------------: | :-------
 18+          | 1.0.0           | [**BoundedValues.jar**](https://github.com/tinycodecrank/BoundedValues/releases/download/v1.0.0/BoundedValues.jar)
-
-## Dependencies
-* [**Monads.jar**](https://github.com/tinycodecrank/tinyMonads/releases/download/v1.0.0/Monads.jar)
-* [**tinyIterators.jar**](https://github.com/tinycodecrank/tinyIterators/releases/download/v1.0.0/tinyIterators.jar)
-* [**BetterFunctionals.jar**](https://github.com/tinycodecrank/betterFunctionals/releases/download/v1.0.0/BetterFunctionals.jar)
 
 ## Example
 
