@@ -6,7 +6,7 @@ Provides a way to restrict the range of a type
 ```xml
 <repository>
   <id>github</id>
-  <url>https://maven.pkg.github.com/tinycodecrank/maven-repo</url>
+  <url>https://maven.pkg.github.com/kryptonbutterfly/maven-repo</url>
 </repository>
 ```
 
@@ -22,7 +22,7 @@ Provides a way to restrict the range of a type
 
 java version | library version | Download
 :----------: | :-------------: | :-------
-18+          | 1.0.0           | [**BoundedValues.jar**](https://github.com/tinycodecrank/BoundedValues/releases/download/v1.0.0/BoundedValues.jar)
+18+          | 1.0.0           | [**BoundedValues.jar**](https://github.com/kryptonbutterfly/BoundedValues/releases/download/v1.0.0/BoundedValues.jar)
 
 ## Example
 
